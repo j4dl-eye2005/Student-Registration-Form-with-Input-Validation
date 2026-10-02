@@ -1,0 +1,112 @@
+body {
+background-color: #eef2f7;
+font-family: Arial;
+}
+
+.container {
+width: 420px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+background-color: white;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+h1 {
+text-align: center;
+color: #34495e;
+font-size: 22px;
+}
+
+.field {
+margin-top: 12px;
+}
+
+label {
+display: block;
+margin-bottom: 4px;
+font-weight: bold;
+}
+
+label.inline {
+display: inline;
+font-weight: normal;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="password"], select {
+width: 95%;
+padding: 7px;
+border: 1px solid #999;
+border-radius: 3px;
+}
+
+input[aria-invalid="true"] {
+border: 1px solid red;
+}
+
+.error {
+color: red;
+font-size: 12px;
+display: block;
+margin-top: 3px;
+}
+
+.feedback {
+color: #555;
+font-size: 12px;
+display: block;
+margin-top: 3px;
+}
+
+.buttons {
+margin-top: 18px;
+}
+
+button {
+padding: 9px 16px;
+border: none;
+border-radius: 3px;
+color: white;
+font-size: 15px;
+cursor: pointer;
+}
+
+#registerBtn {
+background-color: #2980b9;
+}
+
+#registerBtn:hover {
+background-color: #1f6391;
+}
+
+#resetBtn {
+background-color: #7f8c8d;
+margin-left: 8px;
+}
+
+#resetBtn:hover {
+background-color: #636e6f;
+}
+
+.success {
+color: green;
+font-weight: bold;
+text-align: center;
+margin-top: 15px;
+}
+
+.summary {
+margin-top: 15px;
+padding: 12px;
+background-color: #f4f9f4;
+border: 1px solid #cfe3cf;
+border-radius: 4px;
+}
+
+.summary h2 {
+font-size: 18px;
+color: #2c3e50;
+margin-top: 0;
+}
